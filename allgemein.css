@@ -80,7 +80,7 @@ footer {
 .dropdown:hover .dropdown-content {
     overflow:hidden;
     overflow-y:scroll;
-    max-height:500px;
+    max-height:523px;
     display: block;
 }  
 /*changes the background color of the menus on hover*/
