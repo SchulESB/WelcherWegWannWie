@@ -133,9 +133,3 @@ table, th, td {
     border-collapse: collapse;
 }
 tr:nth-child(odd) {background-color:lightgray}
-
-@media screen and (max-width:600px) {
-    body {
-        max-width: 350px;
-    }
-}
