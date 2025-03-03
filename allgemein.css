@@ -18,11 +18,12 @@ header {
     max-height: 20px;
 }
 main {
-    padding: 30px 10px;
+    padding: 30px 20px 60px 20px;
+    min-height:473px;
 }
 footer {
     bottom:0;
-    position: fixed;
+    position: static;
     background-color:var(--headerfooter);
     padding:5px 0px;
     width:100%;
@@ -125,5 +126,12 @@ footer {
     display: block
 }
 /*scroll*/
+
+table, th, td {
+    border: 1px black solid;
+    padding:10px;
+    border-collapse: collapse;
+}
+tr:nth-child(odd) {background-color:lightgray}
 
   
