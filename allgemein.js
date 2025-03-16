@@ -26,7 +26,6 @@ function menuSearchAbschlüsse() {
   filter = input.value.toUpperCase();
   ul = document.getElementById("menuAbschlüsse");
   li = ul.getElementsByTagName("li");
-
   // Loop through all list items, and hide those who don't match the search query
   for (i = 0; i < li.length; i++) {
     a = li[i].getElementsByTagName("a")[0];
@@ -35,5 +34,15 @@ function menuSearchAbschlüsse() {
     } else {
       li[i].style.display = "none";
     }
+  }
+}
+//navbar dropdown icon click changes menu
+function iconFunction() {
+  var x =
+  document.getElementById("navId");
+  if (x.className === "navbar") {
+    x.className += "Responsive";
+  } else {
+    x.className = "navbar";
   }
 }
