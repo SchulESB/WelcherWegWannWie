@@ -246,17 +246,4 @@ tr:nth-child(odd) {background-color:var(--table-bg)}
     .navbarResponsive a:hover {background-color:var(--nav-hover-bg);}
 }
 /*test for phone*/
-/*mindmap is big for big screen*/
-@media screen and (min-width: 768px) {
-    /* index mindmap*/
-    #mindmap {
-        border:1px black solid;
-        background-color: var(--mindmap-bg); /*delete*/
-        background-image: url("mindmap.png");
-        background-size:contain;
-        background-repeat:no-repeat;
-        height:400px;
-        min-width:600px;
-        width:fit-content;
-    }
-}
+
