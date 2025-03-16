@@ -246,4 +246,3 @@ tr:nth-child(odd) {background-color:var(--table-bg)}
     .navbarResponsive a:hover {background-color:var(--nav-hover-bg);}
 }
 /*test for phone*/
-
