@@ -1,71 +1,71 @@
 <!DOCTYPE html>
 <head>
-    <link rel="shortcut icon" href="wwww-logo.png">
-    <link rel="stylesheet" href="allgemein.css">
-    <script src="allgemein.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="wwww-logo.png">
+  <link rel="stylesheet" href="allgemein.css">
+  <script src="allgemein.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <header>
-        <div class="navbar" id="navId">
-            <a href="index.html"><img src="wwww-logo.png" width="45px"></a>
-            <a href="index.html"><b>Welcher Weg Wann und Wie</b></a>
-            <div class="dropdown" id="dropdownId1">
-              <button class="dropbtn">Meine Ziele
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <input type="text" id="searchZiele" onkeyup="menuSearchZiele()" placeholder="Search.." title="Type in a category">
-                <ul id="menuZiele">
-                  <li><a href="#">Link a</a></li>
-                  <li><a href="#">Link b</a></li>
-                  <li><a href="#">Link bbb</a></li>
-                </ul>           
-              </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Meine Abschlüsse
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                  <input type="text" id="searchAbschlüsse" onkeyup="menuSearchAbschlüsse()" placeholder="Search.." title="Type in a category">
-                  <ul id="menuAbschlüsse" ui-scroll-viewport>
-                    <li><a href="ohne-abschluss.html">Ohne Abschluss</a></li>
-                    <li><a href="bbr.html">Berufsbildungsreife (BBR)</a></li>
-                    <li><a href="#">erweiterte Berufsbildungsreife (eBBR)</a></li>
-                    <li><a href="#">Mittlerer Schulabschluss (MSA)</a></li>
-                    <li><a href="#">Fachabitur</a></li>
-                    <li><a href="#">Abitur</a></li>
-                    <li><a href="#">Ausbildung</a></li>
-                    <li><a href="#">Warte Jahr an einer Universität oder Hochschule</a></li>
-                    <li><a href="#">Bachelor</a></li>
-                    <li><a href="#">Master</a></li>
-                    <li><a href="#">Berufserfahrung mit BBR, eBBR, MSA</a></li>
-                    <li><a href="#">Berufserfahrung mit Abitur</a></li>
-                    <li><a href="#">Berufserfahrung mit Bachelor, Master</a></li>
-                    <li><a href="#">Berufserfahrung mit Ausbildung</a></li>
-                  </ul>
-                </div>
-            </div>
-            <a href="javascript:void(0);" class="dropdown-icon" onclick="iconFunction()">
-              <i class="fa fa-bars"><img src="icon1.png" width="45px"></i>
-            </a>
+  <header>
+    <div class="navbar" id="navId">
+        <a href="index.html"><img src="wwww-logo.png" width="45px"></a>
+        <a href="index.html"><b>Welcher Weg Wann und Wie</b></a>
+        <div class="dropdown" id="dropdownId1">
+          <button class="dropbtn">Meine Ziele
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <input type="text" id="searchZiele" onkeyup="menuSearchZiele()" placeholder="Search.." title="Type in a category">
+            <ul id="menuZiele">
+              <li><a href="#">Link a</a></li>
+              <li><a href="#">Link b</a></li>
+              <li><a href="#">Link bbb</a></li>
+            </ul>           
+          </div>
         </div>
-    </header>
+        <div class="dropdown">
+            <button class="dropbtn">Meine Abschlüsse
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <input type="text" id="searchAbschlüsse" onkeyup="menuSearchAbschlüsse()" placeholder="Search.." title="Type in a category">
+              <ul id="menuAbschlüsse" ui-scroll-viewport>
+                <li><a href="ohne-abschluss.html">Ohne Abschluss</a></li>
+                <li><a href="bbr.html">Berufsbildungsreife (BBR)</a></li>
+                <li><a href="#">erweiterte Berufsbildungsreife (eBBR)</a></li>
+                <li><a href="#">Mittlerer Schulabschluss (MSA)</a></li>
+                <li><a href="#">Fachabitur</a></li>
+                <li><a href="#">Abitur</a></li>
+                <li><a href="#">Ausbildung</a></li>
+                <li><a href="#">Warte Jahr an einer Universität oder Hochschule</a></li>
+                <li><a href="#">Bachelor</a></li>
+                <li><a href="#">Master</a></li>
+                <li><a href="#">Berufserfahrung mit BBR, eBBR, MSA</a></li>
+                <li><a href="#">Berufserfahrung mit Abitur</a></li>
+                <li><a href="#">Berufserfahrung mit Bachelor, Master</a></li>
+                <li><a href="#">Berufserfahrung mit Ausbildung</a></li>
+              </ul>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="dropdown-icon" onclick="iconFunction()">
+          <i class="fa fa-bars"><img src="icon1.png" width="45px"></i>
+        </a>
+    </div>
+</header>
         <main>
       <h2>Ohne Abschluss?</h2>
       <p>Kein Problem!</p>
 
       <ul>
         <li>
-            <a href="#ohne-abschluss-schule">Ohne Abschulus und noch in der Schule</a>
+            <a href="#ohne-abschluss-schule">Ohne Abschluss und noch in der Schule</a>
         </li>
         <li>
             <a href="#ohne-abschluss-abgebrochen">Ohne Abschluss und nicht mehr in der Schule</a>
         </li>
       </ul>
       <div id="ohne-abschluss-schule">
-        <h3>Ohne Abschulus und noch in der Schule</h3>
+        <h3>Ohne Abschluss und noch in der Schule</h3>
         <p>Du gehst noch zu Schule?<br>Dann hast du die Möglichkeit nacheinander verschiedene schulische Abschlüsse zu erwerben.<br><br>
        Hier eine Tabelle zur Veranschaulichung, in welcher Klassenstufe welcher Abschluss erworben werden kann. Für weitere Informationen einfach auf den Abschluss klicken.</p>
         <table>
@@ -77,13 +77,13 @@
                 <td>9</td><td><a href="bbr.html">BBR</a></td>
             </tr>
             <tr>
-                <td>10</td><td><a href="/ebbr.html">eBBR</a> oder <a href="Abschlüsse/msa.html">MSA</a></td>
+                <td>10</td><td><a href="ebbr.html">eBBR</a> oder <a href="Abschlüsse/msa.html">MSA</a></td>
             </tr>
             <tr>
-              <td>11 oder 12</td><td><a href="/fachabitur.html">Fachabitur</a></td>
+              <td>11 oder 12</td><td><a href="fachabitur.html">Fachabitur</a></td>
           </tr>
             <tr>
-                <td>12 oder  13</td><td><a href="/abitur.html">Abitur</a></td>
+                <td>12 oder  13</td><td><a href="abitur.html">Abitur</a></td>
             </tr>
         </table>
       </div>
@@ -115,7 +115,7 @@
       </div>
     </main>
     <footer>
-        <p><a href="/impressum.html">Impressum</a></p>
+        <p><a href="impressum.html">Impressum</a></p>
     </footer>
 </body>
 </html>
