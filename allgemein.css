@@ -206,7 +206,6 @@ tr:nth-child(odd) {background-color:var(--table-bg)}
         float:right;
         width: 25px; height:25px; 
         border:none;
-        margin-top:-4px;
     }
 }
 /* navbar if icon clicked same as icon not clicked*/
@@ -218,15 +217,14 @@ tr:nth-child(odd) {background-color:var(--table-bg)}
     }
     .navbarResponsive .dropdown-icon {
         position: absolute;
-        min-width: 25px; min-height:20px; 
+        min-width: 25px; max-height:17px; min-height:17px;
         right:0px; top:0px;
-        margin:-4px -0px;
     }
     .navbarResponsive .dropdown {
         float:none; 
         display:block; 
-        text-align: left;
     }
+    .navbarResponsive .dropbtn{text-align: left;}
     .navbarResponsive #dropdownId1 {margin-top:20px;}
     /* Logo-Link inside the navbar */
     .navbarResponsive a {
@@ -249,3 +247,9 @@ tr:nth-child(odd) {background-color:var(--table-bg)}
     /* Dropdown container */
     
 }
+/*test for phone*/
+/*
+.mobile-only {
+   
+}
+*/
