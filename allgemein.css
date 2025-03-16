@@ -245,11 +245,71 @@ tr:nth-child(odd) {background-color:var(--table-bg)}
     /*if hovered has bg color*/
     .navbarResponsive a:hover {background-color:var(--nav-hover-bg);}
     /* Dropdown container */
-    
 }
 /*test for phone*/
-/*
 .mobile-only {
-   
+    /* index mindmap*/
+    #mindmap {
+        border:1px black solid;
+        background-color: var(--mindmap-bg); /*delete*/
+        background-image: url("mindmap.png");
+        background-size:contain;
+        background-repeat:no-repeat;
+        height:200px;
+        min-width:300px;
+        width:fit-content;
+    }
+    /*mindmap in index all li*/
+    #mindmap li:nth-child(n) {
+        background: var(--mindmap-bg);
+        list-style-type: none;
+        border: 1px var(--mindmap-border) solid;
+        border-radius:5px;
+        width: 100px;
+        padding:5px;
+    }
+    /*mindmap in index single li*/
+    #mindmap li:nth-child(1) {
+        color:red;
+    }
+    #mindmap li:nth-child(2) {
+        color:blue;
+        margin:50px 0px 0px 10px;
+    }
+    #mindmap li:nth-child(3) {
+        color:green;
+    }
 }
-*/
+.mobile-only {
+    /* index mindmap*/
+    #mindmap {
+        border:1px black solid;
+        background-color: var(--mindmap-bg); /*delete*/
+        background-image: url("mindmap.png");
+        background-size:contain;
+        background-repeat:no-repeat;
+        height:200px;
+        min-width:300px;
+        width:fit-content;
+    }
+    /*mindmap in index all li*/
+    #mindmap li:nth-child(n) {
+        background: var(--mindmap-bg);
+        list-style-type: none;
+        border: 1px var(--mindmap-border) solid;
+        border-radius:5px;
+        width: 100px;
+        padding:5px;
+    }
+    /*mindmap in index single li*/
+    #mindmap li:nth-child(1) {
+        color:red;
+    }
+    #mindmap li:nth-child(2) {
+        color:blue;
+        margin:50px 0px 0px 10px;
+    }
+    #mindmap li:nth-child(3) {
+        color:green;
+    }
+}
