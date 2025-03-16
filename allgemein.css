@@ -244,10 +244,9 @@ tr:nth-child(odd) {background-color:var(--table-bg)}
     .navbarResponsive a:nth-child(2){margin-left:10px;}
     /*if hovered has bg color*/
     .navbarResponsive a:hover {background-color:var(--nav-hover-bg);}
-    /* Dropdown container */
 }
 /*test for phone*/
-.mobile-only {
+@media only screen and (max-width: 768px) {
     /* index mindmap*/
     #mindmap {
         border:1px black solid;
@@ -256,7 +255,7 @@ tr:nth-child(odd) {background-color:var(--table-bg)}
         background-size:contain;
         background-repeat:no-repeat;
         height:200px;
-        min-width:300px; max-width:300px;
+        min-width:300px;
         width:fit-content;
     }
     /*mindmap in index all li*/
