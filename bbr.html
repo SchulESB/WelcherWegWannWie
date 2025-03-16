@@ -1,56 +1,57 @@
 <!DOCTYPE html>
 <head>
-    <link rel="shortcut icon" href="wwww-logo.png">
-    <link rel="stylesheet" href="allgemein.css">
-    <script src="allgemein.js"></script>
+  <link rel="shortcut icon" href="wwww-logo.png">
+  <link rel="stylesheet" href="allgemein.css">
+  <script src="allgemein.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <header>
-        <div class="navbar" id="navId">
-            <a href="index.html"><img src="wwww-logo.png" width="45px"></a>
-            <a href="index.html"><b>Welcher Weg Wann und Wie</b></a>
-            <div class="dropdown" id="dropdownId1">
-              <button class="dropbtn">Meine Ziele
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <input type="text" id="searchZiele" onkeyup="menuSearchZiele()" placeholder="Search.." title="Type in a category">
-                <ul id="menuZiele">
-                  <li><a href="#">Link a</a></li>
-                  <li><a href="#">Link b</a></li>
-                  <li><a href="#">Link bbb</a></li>
-                </ul>           
-              </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Meine Abschlüsse
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                  <input type="text" id="searchAbschlüsse" onkeyup="menuSearchAbschlüsse()" placeholder="Search.." title="Type in a category">
-                  <ul id="menuAbschlüsse" ui-scroll-viewport>
-                    <li><a href="ohne-abschluss.html">Ohne Abschluss</a></li>
-                    <li><a href="bbr.html">Berufsbildungsreife (BBR)</a></li>
-                    <li><a href="#">erweiterte Berufsbildungsreife (eBBR)</a></li>
-                    <li><a href="#">Mittlerer Schulabschluss (MSA)</a></li>
-                    <li><a href="#">Fachabitur</a></li>
-                    <li><a href="#">Abitur</a></li>
-                    <li><a href="#">Ausbildung</a></li>
-                    <li><a href="#">Warte Jahr an einer Universität oder Hochschule</a></li>
-                    <li><a href="#">Bachelor</a></li>
-                    <li><a href="#">Master</a></li>
-                    <li><a href="#">Berufserfahrung mit BBR, eBBR, MSA</a></li>
-                    <li><a href="#">Berufserfahrung mit Abitur</a></li>
-                    <li><a href="#">Berufserfahrung mit Bachelor, Master</a></li>
-                    <li><a href="#">Berufserfahrung mit Ausbildung</a></li>
-                  </ul>
-                </div>
-            </div>
-            <a href="javascript:void(0);" class="dropdown-icon" onclick="iconFunction()">
-              <i class="fa fa-bars"><img src="icon1.png" width="45px"></i>
-            </a>
+  <header>
+    <div class="navbar" id="navId">
+        <a href="index.html"><img src="wwww-logo.png" width="45px"></a>
+        <a href="index.html"><b>Welcher Weg Wann und Wie</b></a>
+        <div class="dropdown" id="dropdownId1">
+          <button class="dropbtn">Meine Ziele
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <input type="text" id="searchZiele" onkeyup="menuSearchZiele()" placeholder="Search.." title="Type in a category">
+            <ul id="menuZiele">
+              <li><a href="#">Link a</a></li>
+              <li><a href="#">Link b</a></li>
+              <li><a href="#">Link bbb</a></li>
+            </ul>           
+          </div>
         </div>
-    </header>
+        <div class="dropdown">
+            <button class="dropbtn">Meine Abschlüsse
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <input type="text" id="searchAbschlüsse" onkeyup="menuSearchAbschlüsse()" placeholder="Search.." title="Type in a category">
+              <ul id="menuAbschlüsse" ui-scroll-viewport>
+                <li><a href="ohne-abschluss.html">Ohne Abschluss</a></li>
+                <li><a href="bbr.html">Berufsbildungsreife (BBR)</a></li>
+                <li><a href="#">erweiterte Berufsbildungsreife (eBBR)</a></li>
+                <li><a href="#">Mittlerer Schulabschluss (MSA)</a></li>
+                <li><a href="#">Fachabitur</a></li>
+                <li><a href="#">Abitur</a></li>
+                <li><a href="#">Ausbildung</a></li>
+                <li><a href="#">Warte Jahr an einer Universität oder Hochschule</a></li>
+                <li><a href="#">Bachelor</a></li>
+                <li><a href="#">Master</a></li>
+                <li><a href="#">Berufserfahrung mit BBR, eBBR, MSA</a></li>
+                <li><a href="#">Berufserfahrung mit Abitur</a></li>
+                <li><a href="#">Berufserfahrung mit Bachelor, Master</a></li>
+                <li><a href="#">Berufserfahrung mit Ausbildung</a></li>
+              </ul>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="dropdown-icon" onclick="iconFunction()">
+          <i class="fa fa-bars"><img src="icon1.png" width="45px"></i>
+        </a>
+    </div>
+</header>
 <main>
     <h2>BBR</h2>
     <ul>
@@ -64,7 +65,7 @@
     <div id="bbr-ziel">
         <h3>BBR als Ziel</h3>
         <p>Du möchtest den BBR (auch Hauptschulabschluss oder Berufsbildungsreife genannt) erwerben. Das klingt gut! Und das ist auch nicht so schwer. Du erlangst ihn nach dem Bestehen der Prüfungen in Klasse 9.</p>    
-        <p>Wenn du die Prüfungen nicht schaffst ist es aber auch nicht so schlimm. Du kannst dann immernoch den <a href="/ebbr.html">eBBR</a> erlangen oder ganz <a href="ohne-abschluss.html">ohne Abschluss</a> weiter gehen.</p>
+        <p>Wenn du die Prüfungen nicht schaffst ist es aber auch nicht so schlimm. Du kannst dann immernoch den <a href="/ebbr.html">eBBR</a> erlangen oder ganz <a href="/ohne-abschluss.html">ohne Abschluss</a> weiter gehen.</p>
         <p>Um zu den Prüfungen zugelassen zu werden </p>
         <ul>
           <li>
@@ -80,7 +81,7 @@
     <p>Mit dem BBR</p></div>
 </main>
 <footer>
-    <p><a href="/impressum.html">Impressum</a></p>
+    <p><a href="/mpressum.html">Impressum</a></p>
 </footer>
 </body>
 </html>
