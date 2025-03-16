@@ -6,9 +6,10 @@
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <a href="index.html"><img src="wwww-logo.png" alt="Welcher Weg Wann und Wie"></a>
-            <div class="dropdown">
+        <div class="navbar" id="navId">
+            <a href="index.html"><img src="wwww-logo.png" width="45px"></a>
+            <a href="index.html"><b>Welcher Weg Wann und Wie</b></a>
+            <div class="dropdown" id="dropdownId1">
               <button class="dropbtn">Meine Ziele
                 <i class="fa fa-caret-down"></i>
               </button>
@@ -44,17 +45,31 @@
                     <li><a href="#">Berufserfahrung mit Ausbildung</a></li>
                   </ul>
                 </div>
-            </div>     
+            </div>
+            <a href="javascript:void(0);" class="dropdown-icon" onclick="iconFunction()">
+              <i class="fa fa-bars"><img src="icon1.png" width="45px"></i>
+            </a>
         </div>
     </header>
     <main>
         <h2>Welcher Weg Wann und Wie</h2>
         <p>Eine Einleitung, wozu ist diese Seite da?</p>
         <p>Hier kommt eine Mindmap hin! Die kann man anklicken und zu den Seiten gelangen :]</p>
-        <img src="mindmap.png" width="500">
-      </main>
+        <div id="mindmap">
+          <ul>
+            <li>
+              one
+            </li>
+            <li>
+              two
+            </li><li>
+              three
+            </li>
+          </ul>
+        </div>
+    </main>
     <footer>
-        <p><a href="/impressum.html">Impressum</a></p>
+        <p><a href="impressum.html">Impressum</a></p>
     </footer>
 </body>
 </html>
