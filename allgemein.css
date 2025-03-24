@@ -2,19 +2,19 @@
 :root {
     /*note: left over colors are to be removed later*/
     /*colors for main*/
-    --main-bg: #DC9FA7;
+    --main-bg: #B9DEE6;
     --main-txt: black;
     --main-txt: black;
       /*mindmap*/
       --mindmap-bg: lightgray;
       --mindmap-border: black;
     /*colors for header and footer*/
-    --head-foot-bg: #982729;
+    --head-foot-bg: #1F548D;
     --head-foot-txt: black;
     --head-foot-txt-a: black;
-    --nav-hover-bg:#D4A685;
+    --nav-hover-bg:#99B4B8;
     /*colors for dropdown*/    
-    --dropdown-bg: #D0C4C8;
+    --dropdown-bg: #76C9DA;
     --dropdown-txt:black;
     --dropdown-hover-bg: #eee;
     --dropdown-shadow:lightgray;
