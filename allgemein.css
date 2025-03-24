@@ -143,9 +143,9 @@ footer a {
 /* Style the search box */
 #searchZiele, #searchAbschlüsse  {
     font-size: 18px;
-    border: 0px var(--dropdown-bg) solid;
+    border: 1px var(--dropdown-bg) solid;
     padding: 12px;
-    width: 144px;
+    width: 155px;
   }
   
 /* Style the navigation menu */
