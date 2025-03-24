@@ -6,68 +6,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <header>
-    <div class="navbar" id="navId">
-        <a href="index.html"><img src="wwww-logo.png" width="45px"></a>
-        <a href="index.html"><b>Welcher Weg Wann und Wie</b></a>
-        <div class="dropdown" id="dropdownId1">
-          <button class="dropbtn">Meine Ziele
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <input type="text" id="searchZiele" onkeyup="menuSearchZiele()" placeholder="Search.." title="Type in a category">
-            <ul id="menuZiele">
-              <li><a href="#">Link a</a></li>
-              <li><a href="#">Link b</a></li>
-              <li><a href="#">Link bbb</a></li>
-            </ul>           
-          </div>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn">Meine Abschlüsse
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <input type="text" id="searchAbschlüsse" onkeyup="menuSearchAbschlüsse()" placeholder="Search.." title="Type in a category">
-              <ul id="menuAbschlüsse" ui-scroll-viewport>
-                <li><a href="ohne-abschluss.html">Ohne Abschluss</a></li>
-                <li><a href="bbr.html">Berufsbildungsreife (BBR)</a></li>
-                <li><a href="#">erweiterte Berufsbildungsreife (eBBR)</a></li>
-                <li><a href="#">Mittlerer Schulabschluss (MSA)</a></li>
-                <li><a href="#">Fachabitur</a></li>
-                <li><a href="#">Abitur</a></li>
-                <li><a href="#">Ausbildung</a></li>
-                <li><a href="#">Warte Jahr an einer Universität oder Hochschule</a></li>
-                <li><a href="#">Bachelor</a></li>
-                <li><a href="#">Master</a></li>
-                <li><a href="#">Berufserfahrung mit BBR, eBBR, MSA</a></li>
-                <li><a href="#">Berufserfahrung mit Abitur</a></li>
-                <li><a href="#">Berufserfahrung mit Bachelor, Master</a></li>
-                <li><a href="#">Berufserfahrung mit Ausbildung</a></li>
-              </ul>
+    <header>
+        <div class="navbar" id="navId">
+            <a href="index.html"><img src="wwww-logo.png" width="45px"></a>
+            <a href="index.html"><b>Welcher Weg Wann und Wie</b></a>
+            <div class="dropdown" id="dropdownId1">
+              <button class="dropbtn">Meine Ziele
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <input type="text" id="searchZiele" onkeyup="menuSearchZiele()" placeholder="Search.." title="Type in a category">
+                <ul id="menuZiele">
+                  <li><a href="bbr-ziel.html">Berufsbildungsreife (BBR)</a></li>
+                  <li><a href="ebbr-ziel.html">erweiterte Berufsbildungsreife (eBBR)</a></li>
+                  <li><a href="msa-ziel.html">Mittlerer Schulabschluss (MSA)</a></li>
+                  <li><a href="fachabitur-ziel.html">Fachabitur</a></li>
+                  <li><a href="abitur-ziel.html">Abitur</a></li>
+                  <li><a href="ausbildung-ziel.html">Ausbildung</a></li>
+                  <li><a href="warte-jahr-ziel.html">Warte Jahr an einer Universität oder Hochschule</a></li>
+                  <li><a href="bachelor-ziel.html">Bachelor</a></li>
+                  <li><a href="master-ziel.html">Master</a></li>
+                  <li><a href="ersteinstieg.html">Ersteinstieg in die Berufswelt</a></li>
+                  <li><a href="fsj-ziel.html">Freiwilliges Soziales Jahr (FSJ)</a></li>
+                  <li><a href="karrierewechsel-ziel.html">Karrierewechsel</a></li>
+                  <li><a href="weiterbildung.html">Weiterbildung</a></li>
+                </ul>           
+              </div>
             </div>
+            <div class="dropdown">
+                <button class="dropbtn">Meine Abschlüsse
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <input type="text" id="searchAbschlüsse" onkeyup="menuSearchAbschlüsse()" placeholder="Search.." title="Type in a category">
+                  <ul id="menuAbschlüsse" ui-scroll-viewport>
+                    <li><a href="ohne-abschluss.html">Ohne Abschluss</a></li>
+                    <li><a href="bbr.html">Berufsbildungsreife (BBR)</a></li>
+                    <li><a href="ebbr.html">erweiterte Berufsbildungsreife (eBBR)</a></li>
+                    <li><a href="msa.html">Mittlerer Schulabschluss (MSA)</a></li>
+                    <li><a href="fachabitur.html">Fachabitur</a></li>
+                    <li><a href="abitur.html">Abitur</a></li>
+                    <li><a href="ausbildung.html">Ausbildung</a></li>
+                    <li><a href="bachelor.html">Bachelor</a></li>
+                    <li><a href="master.html">Master</a></li>
+                    <li><a href="berufserfahrung-1.html">Berufserfahrung mit BBR, eBBR, MSA</a></li>
+                    <li><a href="berufserfahrung-2.html">Berufserfahrung mit Abitur, Fachabitur</a></li>
+                    <li><a href="berufserfahrung-3.html">Berufserfahrung mit Bachelor, Master</a></li>
+                    <li><a href="berufserfahrung-4.html">Berufserfahrung mit Ausbildung</a></li>
+                  </ul>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="dropdown-icon" onclick="iconFunction()">
+              <i class="fa fa-bars"><img src="icon1.png" width="45px"></i>
+            </a>
         </div>
-        <a href="javascript:void(0);" class="dropdown-icon" onclick="iconFunction()">
-          <i class="fa fa-bars"><img src="icon1.png" width="45px"></i>
-        </a>
-    </div>
-</header>
+    </header>
         <main>
       <h2>Ohne Abschluss?</h2>
       <p>Kein Problem!</p>
-
-      <ul>
-        <li>
-            <a href="#ohne-abschluss-schule">Ohne Abschluss und noch in der Schule</a>
-        </li>
-        <li>
-            <a href="#ohne-abschluss-abgebrochen">Ohne Abschluss und nicht mehr in der Schule</a>
-        </li>
-      </ul>
-      <div id="ohne-abschluss-schule">
-        <h3>Ohne Abschluss und noch in der Schule</h3>
-        <p>Du gehst noch zu Schule?<br>Dann hast du die Möglichkeit nacheinander verschiedene schulische Abschlüsse zu erwerben.<br><br>
-       Hier eine Tabelle zur Veranschaulichung, in welcher Klassenstufe welcher Abschluss erworben werden kann. Für weitere Informationen einfach auf den Abschluss klicken.</p>
+        <p>Du gehst noch zu Schule?
+          <br>
+          Dann hast du die Möglichkeit nacheinander verschiedene schulische Abschlüsse zu erwerben. 
+          Die erste Abschlussmöglichkeit besteht in der neunten Klasse mit dem BBR. 
+          In der 10 Klasse folgt dann der eBBR oder der MSA. 
+          Wenn du dann noch mehr Lust auf Schule hast, kannst du weiler zum Abitur oder Fachabitur gehen. 
+          Wenn dich diese Abschlüsse interessieren, klicke einfach darauf. 
+          <br>
+        </p>
         <table>
             <tr>
                 <th>Klasse</th>
@@ -86,33 +91,43 @@
                 <td>12 oder  13</td><td><a href="abitur.html">Abitur</a></td>
             </tr>
         </table>
-      </div>
-      <div id="ohne-abschluss-abgebrochen">
-        <h3>Ohne Abschluss und nicht mehr in der Schule</h3>
         <p>Du bist nicht mehr in der Schule oder möchtest abbrechen?<br>Auch dann stehen dir einige Möglichkeiten offen:</p>
       <ul>
         <li>
           <a href="duale-ausbildung">Duale Ausbildung</a>
-          <p>Bei einer Dualen Ausbildung arbeitest du zwischen zwei- bis dreieinhalb Jahren im Betrieb und besuchst glechzeitig die Berufsschule.</p>
+          <p>Bei einer dualen Ausbildung arbeitest du zwischen zwei- bis dreieinhalb Jahren im Betrieb und besuchst glechzeitig die Berufsschule.
+            <br>
+            Keine Angst, du hast dann nicht mehr alle Schulfächer, nur die, die für den Beruf notwendig sind.
+Wenn deine Ausbildung zwei Jahre dauert, erhältst zusätzlich den Hauptschulabschluss in Berlin heißt er BBR .
+Nach drei Jahren erhältst du den Realschulabschluss (MSA) oder die Erweiterte Berufsbildungsreife. 
+          </p>
         </li>
         <li>
           <a href="bes">BES Sprachförderung und Integration</a>
         </li>
-        <p>Die deutsche Sprache weiter kennenlernen, um bessere Berufschancen zu haben.</p>
+          <p>
+            Du bist neu nach Deutschland gezogen oder hast vielleicht schon bei einer allgemeinbildenden Schule erste Deutschkenntnisse erworben? Bei dieser Klasse lernst du die deutsche Sprache noch weiter kennen, um hier bessere Berufschancen zu haben. 
+          </p>
         <li>
           <a href="bes1">Berufseinstiegsschule Klasse 1 (Bes1)</a>
         </li>
-        <p>Einjährige Schulform mit individueller Förderung bei der du auf das berufliche Leben vorbereitet wirst und verschiedene Berufsfelder ausprobieren kannst.</p>
+          <p>
+            In dieser einjährigen Schulform bietet eine individuelle Förderung, bei der du auf das berufliche Leben vorbereitet wirst und du verschiedene Berufsfelder ausprobieren kannst.
+            Mit dieser ersten beruflichen Orientierung gehen die meisten über in die Klasse II .
+          </p>
         <li>
           <a href="bes2">Berufseinstiegsschule Klasse 2 (Bes2)</a>
         </li>
-        <p>Voraussetzung: BES1 oder BES Sprachförderung und Integration. Hier kannst du die Ausbildungsreife oder den Hauptschulabschluss erwerben oder verbessern.</p>
+          <p>
+            Voraussetzung für diese einjährige Klasse ist die abgeschlossene Klasse I oder die BES Sprachförderung und Integration. Du kannst hier die Ausbildungsreife oder den Hauptschulabschluss erwerben oder verbessern. Danach hast du Grundkenntnisse in einem Berufsbereich und einen guten Übergang in z.B. in eine Berufsschule oder eine duale (Betriebliche) Ausbildung.
+          </p>
         <li>
           <a href="iba">Integrierte Berufsausbildungsverordnung (IBA)</a>
         </li>
-        <p>IBA unterstützt dich innerhalb von einem Jahr einen Ausbildungsplatz zu finden. Du kannst hier auch den BBR,eBBR oder MSA nachholen.</p>
+          <p>Bist du endlich mit der 10. Klasse fertig, hast aber noch keinen Ausbildungsplatz. Alles gut, die integrierte Berufsausbildungsverordnung IBA unterstützt dich innerhalb von einem Jahr einen Platz zu finden. 
+            Du kannst hier auch den BBR, eBBr oder den MSA nachholen.
+          </p>
       </ul>
-      </div>
     </main>
     <footer>
         <p><a href="impressum.html">Impressum</a></p>
