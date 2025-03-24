@@ -262,7 +262,7 @@ tr:nth-child(odd) a {
     /*position the wwwww title*/
     .navbarResponsive a:nth-child(2){margin-left:10px;}
     /*if hovered has bg color*/
-    .navbarResponsive a:hover {background-color:var(--nav-hover-bg);}
+    .navbarResponsive a:hover {background-color:var(--head-foot-bg);}
 }
 /*test for phone*/
 /*mindmap is big for big screen*/
