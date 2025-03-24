@@ -2,17 +2,19 @@
 :root {
     /*note: left over colors are to be removed later*/
     /*colors for main*/
-    --main-bg: white;
-    --main-txt: white;
+    --main-bg: #DC9FA7;
+    --main-txt: black;
+    --main-txt: black;
       /*mindmap*/
       --mindmap-bg: lightgray;
       --mindmap-border: black;
     /*colors for header and footer*/
-    --head-foot-bg: goldenrod;
+    --head-foot-bg: #982729;
     --head-foot-txt: black;
-    --nav-hover-bg:red;
+    --head-foot-txt-a: black;
+    --nav-hover-bg:#D4A685;
     /*colors for dropdown*/    
-    --dropdown-bg: #f9f9f9;
+    --dropdown-bg: #D0C4C8;
     --dropdown-txt:black;
     --dropdown-hover-bg: #eee;
     --dropdown-shadow:lightgray;
@@ -35,8 +37,13 @@ header {
     max-height: 30px;
 }
 main {
+    color:var(--main-txt);
+    background-color:var(--main-bg);
     padding: 30px 20px 60px 20px;
     min-height:473px;
+}
+main a{
+    color:var(--main-txt-a);
 }
 footer {
     bottom:0;
@@ -45,6 +52,11 @@ footer {
     padding:5px 0px;
     width:100%;
     text-align:center;
+}
+footer a {
+    color:var(--head-foot-txt-a);
+    padding: 20px 16px;
+    text-decoration: none;
 }
 
 /* Navbar container */
@@ -55,7 +67,7 @@ footer {
 }
 /* Logo-Link inside the navbar */
 .navbar a {
-    color:var(--head-foot-txt);
+    color:var(--head-foot-txt-a);
     float: left;
     padding: 20px 16px;
     text-decoration: none;
@@ -69,8 +81,6 @@ footer {
 }
 /*position the wwww*/
 .navbar a:nth-child(2){margin-left:10px;}
-/*if hovered has bg color*/
-.navbar a:hover {background-color:var(--nav-hover-bg);}
 /*navbar icon: is invisible if screen >640 px*/
 .navbar .dropdown-icon {display:none;}
 /* Dropdown container */
@@ -193,8 +203,17 @@ table, th, td {
     padding:10px;
     border-collapse: collapse;
 }
+table,th,td a {
+    color:var(--main-txt-a);
+}
 /*Table colors*/
-tr:nth-child(odd) {background-color:var(--table-bg)}
+tr:nth-child(odd) {
+    background-color:var(--head-foot-bg);
+    color:var(--head-foot-txt);
+}
+tr:nth-child(odd) a {
+    color:var(--head-foot-txt-a);
+}
 
 /*changes for small screen width*/
 @media screen and (max-width:640px){
