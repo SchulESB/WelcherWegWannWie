@@ -1,0 +1,87 @@
+<!DOCTYPE html lang="en">
+<head>
+  <link rel="shortcut icon" href="wwww-logo.png">
+  <link rel="stylesheet" href="allgemein.css">
+  <script src="allgemein.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <div class="navbar" id="navId">
+            <a href="index.html"><img src="wwww-logo.png" width="45px"></a>
+            <a href="index.html"><b>Welcher Weg Wann und Wie</b></a>
+            <div class="dropdown" id="dropdownId1">
+              <button class="dropbtn">Meine Ziele
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <input type="text" id="searchZiele" onkeyup="menuSearchZiele()" placeholder="Search.." title="Type in a category">
+                <ul id="menuZiele">
+                  <li><a href="bbr-ziel.html">Berufsbildungsreife (BBR)</a></li>
+                  <li><a href="ebbr-ziel.html">erweiterte Berufsbildungsreife (eBBR)</a></li>
+                  <li><a href="msa-ziel.html">mittlerer Schulabschluss (MSA)</a></li>
+                  <li><a href="fachabitur-ziel.html">Fachabitur</a></li>
+                  <li><a href="abitur-ziel.html">Abitur</a></li>
+                  <li><a href="duale-ausbildung-ziel.html">duale Ausbildung</a></li>
+                </ul>           
+              </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Meine Abschlüsse
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <input type="text" id="searchAbschlüsse" onkeyup="menuSearchAbschlüsse()" placeholder="Search.." title="Type in a category">
+                  <ul id="menuAbschlüsse" ui-scroll-viewport>
+                    <li><a href="ohne-abschluss.html">kein Abschluss</a></li>
+                    <li><a href="bbr.html">Berufsbildungsreife (BBR)</a></li>
+                    <li><a href="ebbr.html">erweiterte Berufsbildungsreife (eBBR)</a></li>
+                    <li><a href="msa.html">mittlerer Schulabschluss (MSA)</a></li>
+                    <li><a href="fachabitur.html">Fachabitur</a></li>
+                    <li><a href="abitur.html">Abitur</a></li>
+                  </ul>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="dropdown-icon" onclick="iconFunction()">
+              <i class="fa fa-bars"><img src="icon1.png" width="45px"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <h2>eBBR – Der nächste Schritt!</h2>
+        <p>Du willst den eBBR machen?</p>
+        <p>Kein Problem! Je nach deinem Niveau machst du in der gemeinsamen Prüfung entweder den eBBR oder den <a href="msa-ziel.html">MSA</a>. Für den <a href="msa-ziel.html">MSA</a> musst du mindestens zwei Fächer auf dem erweitertem Niveau im Vorjahr gehabt haben. Wenn dies nicht der Fall ist, dann nimmst du an der Prüfung für den eBBR teil.</p>
+        <p>Was brauchst du für den eBBR?</p>
+        <ul>
+          <li>
+            Alle Noten müssen mindestens 4 oder besser sein.
+          </li>
+          <li>
+            Du darfst maximal zwei Fächer mit Note 5 haben, musst sie aber mit einer 3 in einem anderen Fach ausgleichen.
+          </li>
+          <li>
+            Wenn du eine 5 in einem Kernfach (Deutsch, Mathe, Fremdsprache) hast, brauchst du dort auch den Ausgleich.
+          </li>
+          <li>
+            Eine 6 in einem Fach? Dann brauchst du in zwei anderen Fächern eine 2, um das auszugleichen.
+          </li>
+        </ul>
+        <p>Selbst wenn du an der MSA Prüfung teilnimmst und diese nicht bestehst, kannst du den eBBR bekommen, wenn du die Anforderungen dafür bestanden hast. Also keine Panik, falls aus dem <a href="msa-ziel.html">MSA</a> nichts wird – du gehst nicht mit leeren Händen nach Hause! Falls du ihn nicht direkt schaffst, kannst du ihn an einem OSZ oder in der IBA nachholen.</p>
+        <p>Was kannst du mit dem eBBR machen?</p>
+        <ul>
+          <li>
+            <a href="duale-ausbildung-ziel.html">Duale Ausbildung</a> – Viele Berufe kannst du mit dem ebbr direkt starten.
+          </li>
+          <li>
+            <a href="msa-ziel.html">MSA</a> nachholen – Falls du doch noch Lust hast, kannst du den <a href="msa-ziel.html">MSA</a> an einem Oberstufenzentrum (OSZ) oder über eine integrierte Berufsausbildungsvorbereitung (IBA) nachholen.
+          </li>
+          <li>
+            Weiterführende Schulen – Es gibt viele Möglichkeiten, den nächsten Abschluss zu machen und noch weiterzukommen.
+          </li>
+        </ul>
+    </main>
+    <footer>
+        <p><a href="impressum.html">Impressum</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html lang="en">
+<head>
+  <link rel="shortcut icon" href="wwww-logo.png">
+  <link rel="stylesheet" href="allgemein.css">
+  <script src="allgemein.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <div class="navbar" id="navId">
+            <a href="index.html"><img src="wwww-logo.png" width="45px"></a>
+            <a href="index.html"><b>Welcher Weg Wann und Wie</b></a>
+            <div class="dropdown" id="dropdownId1">
+              <button class="dropbtn">Meine Ziele
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <input type="text" id="searchZiele" onkeyup="menuSearchZiele()" placeholder="Search.." title="Type in a category">
+                <ul id="menuZiele">
+                  <li><a href="bbr-ziel.html">Berufsbildungsreife (BBR)</a></li>
+                  <li><a href="ebbr-ziel.html">erweiterte Berufsbildungsreife (eBBR)</a></li>
+                  <li><a href="msa-ziel.html">mittlerer Schulabschluss (MSA)</a></li>
+                  <li><a href="fachabitur-ziel.html">Fachabitur</a></li>
+                  <li><a href="abitur-ziel.html">Abitur</a></li>
+                  <li><a href="duale-ausbildung-ziel.html">duale Ausbildung</a></li>
+                </ul>           
+              </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Meine Abschlüsse
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <input type="text" id="searchAbschlüsse" onkeyup="menuSearchAbschlüsse()" placeholder="Search.." title="Type in a category">
+                  <ul id="menuAbschlüsse" ui-scroll-viewport>
+                    <li><a href="ohne-abschluss.html">kein Abschluss</a></li>
+                    <li><a href="bbr.html">Berufsbildungsreife (BBR)</a></li>
+                    <li><a href="ebbr.html">erweiterte Berufsbildungsreife (eBBR)</a></li>
+                    <li><a href="msa.html">mittlerer Schulabschluss (MSA)</a></li>
+                    <li><a href="fachabitur.html">Fachabitur</a></li>
+                    <li><a href="abitur.html">Abitur</a></li>
+                  </ul>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="dropdown-icon" onclick="iconFunction()">
+              <i class="fa fa-bars"><img src="icon1.png" width="45px"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <h2>BBR - Dein erster Abschluss!</h2>
+        <p>BBR, auch Hauptschulabschluss oder Berufsbildungsreife genannt, klingt erstmal kompliziert? Keine Sorge! Den bekommst du, wenn du die Prüfungen in der 9. Klasse bestehst. Das ist die erste Hürde, um weiterzukommen und vielleicht sogar irgendwann das <a href="abitur-ziel.html">Abitur</a> zu machen.</p>
+        <p>Aber was, wenn es nicht klappt? Kein Problem! Falls du die Prüfungen nicht besteht, gibt es trotzdem noch Wege weiterzumachen. Du kannst den <a href="ebbr-ziel.html">eBBR</a> nachholen oder direkt mit einer Ausbildung loslegen.</p>
+        <h4>Was brauchst du für den BBR?</h4>
+        <p>Um den Abschluss zu bekommen, musst du mindestens zwei der drei Kernfächer (Deutsch, Mathe, 1. Fremdsprache oder WAT) eine 4 oder besser haben. Dein Notendurchschnitt muss mindestens 4,0 sein.</p>
+        <p>Falls du das knapp verfehlt, ist es auch nicht sofort vorbei. Du kannst in einem Fach eine Nachprüfung machen und deine Note verbessern!</p>
+        <p>Mit dem BBR hast du einige Möglichkeiten:<br>
+<ul>
+  <li>
+    <a href="duale-ausbildung-ziel.html">Duale Ausbildung</a> – Du arbeitest in einem Betrieb und gehst nebenbei zur Berufsschule.
+  </li>
+  <li>
+    Fachoberschule (FOS) – Hast du eine berufliche Vorbildung, kannst du nach zwei Jahren dein <a href="fachabitur.html">Fachabitur</a> machen.
+  </li>
+  <li>Schule weitermachen – Du kannst den <a href="ebbr-ziel.html">eBBR</a> oder <a href="msa-ziel.html">MSA</a> machen und dir noch mehr Türen öffnen.
+  </li>
+</ul>
+        </p>
+      </main>
+    <footer>
+        <p><a href="impressum.html">Impressum</a></p>
+    </footer>
+</body>
+</html>

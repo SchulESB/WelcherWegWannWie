@@ -1,0 +1,100 @@
+<!DOCTYPE html lang="en">
+<head>
+  <link rel="shortcut icon" href="wwww-logo.png">
+  <link rel="stylesheet" href="allgemein.css">
+  <script src="allgemein.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <div class="navbar" id="navId">
+            <a href="index.html"><img src="wwww-logo.png" width="45px"></a>
+            <a href="index.html"><b>Welcher Weg Wann und Wie</b></a>
+            <div class="dropdown" id="dropdownId1">
+              <button class="dropbtn">Meine Ziele
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <input type="text" id="searchZiele" onkeyup="menuSearchZiele()" placeholder="Search.." title="Type in a category">
+                <ul id="menuZiele">
+                  <li><a href="bbr-ziel.html">Berufsbildungsreife (BBR)</a></li>
+                  <li><a href="ebbr-ziel.html">erweiterte Berufsbildungsreife (eBBR)</a></li>
+                  <li><a href="msa-ziel.html">mittlerer Schulabschluss (MSA)</a></li>
+                  <li><a href="fachabitur-ziel.html">Fachabitur</a></li>
+                  <li><a href="abitur-ziel.html">Abitur</a></li>
+                  <li><a href="duale-ausbildung-ziel.html">duale Ausbildung</a></li>
+                </ul>           
+              </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Meine Abschlüsse
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <input type="text" id="searchAbschlüsse" onkeyup="menuSearchAbschlüsse()" placeholder="Search.." title="Type in a category">
+                  <ul id="menuAbschlüsse" ui-scroll-viewport>
+                    <li><a href="ohne-abschluss.html">kein Abschluss</a></li>
+                    <li><a href="bbr.html">Berufsbildungsreife (BBR)</a></li>
+                    <li><a href="ebbr.html">erweiterte Berufsbildungsreife (eBBR)</a></li>
+                    <li><a href="msa.html">mittlerer Schulabschluss (MSA)</a></li>
+                    <li><a href="fachabitur.html">Fachabitur</a></li>
+                    <li><a href="abitur.html">Abitur</a></li>
+                  </ul>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="dropdown-icon" onclick="iconFunction()">
+              <i class="fa fa-bars"><img src="icon1.png" width="45px"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <h2>Duale Ausbildung – Lernen & Arbeiten gleichzeitig!</h2>
+    <p>Du willst nicht mehr nur in der Schule sitzen, sondern endlich praktisch arbeiten? Dann ist die duale Ausbildung genau das Richtige für dich!</p>
+    <p>Wie funktioniert das?</p>
+    <p>Bei einer dualen Ausbildung bist du in einem Betrieb angestellt und besuchst parallel eine Berufsschule. Die Ausbildung dauert 2 bis 3,5 Jahre, je nach Beruf.</p>
+    <p>Und das Beste?</p>
+    <ul>
+        <li>
+            Du verdienst direkt dein eigenes Geld.
+        </li>
+        <li>
+            Du hast nur berufsspezifische Fächer – kein unnötiges Schulzeug mehr!
+        </li>
+        <li>
+            Nach der Ausbildung hast du gute Chancen auf einen festen Job.
+        </li>
+    </ul>
+    <p>Welchen Schulabschluss brauchst du?</p>
+    <p>Das kommt auf den Beruf an:</p>
+    <ul>
+        <li>
+            Mit dem <a href="bbr-ziel.html">BBR</a> kannst du z. B. in handwerkliche Berufe starten.
+        </li>
+        <li>
+            Mit dem <a href="ebbr-ziel.html">eBBR</a> oder <a href="msa-ziel.html">MSA</a> stehen dir noch mehr Berufe offen.
+        </li>
+        <li>
+            Mit dem <a href="abitur-ziel.html">Abitur</a> oder <a href="fachabitur-ziel.html">Fachabitur</a> kannst du anspruchsvollere Ausbildungen machen, z. B. in der Verwaltung oder Technik.
+        </li>
+    </ul>
+    <p>Und falls du noch keinen Abschluss hast?</p>
+    <p>Kein Problem! In vielen Ausbildungen kannst du den <a href="bbr-ziel.html">BBR</a> oder sogar den <a href="msa-ziel.html">MSA</a> nachholen.</p>
+    <p>Nach der Ausbildung kannst du:</p>
+    <ul>
+        <li>
+            Direkt arbeiten und Karriere machen.
+        </li>
+        <li>
+            Eine Weiterbildung zum Meister oder Techniker machen.
+        </li>
+        <li>
+            Sogar noch studieren, wenn du den passenden Abschluss hast!
+        </li>
+    </ul>
+    <p>Falls du noch nicht genau weißt, welcher Beruf zu dir passt – es gibt viele Berufsorientierungsprogramme, die dir helfen, den richtigen Weg zu finden!</p>
+    </main>
+    <footer>
+        <p><a href="impressum.html">Impressum</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html lang="en">
+<head>
+  <link rel="shortcut icon" href="wwww-logo.png">
+  <link rel="stylesheet" href="allgemein.css">
+  <script src="allgemein.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <div class="navbar" id="navId">
+            <a href="index.html"><img src="wwww-logo.png" width="45px"></a>
+            <a href="index.html"><b>Welcher Weg Wann und Wie</b></a>
+            <div class="dropdown" id="dropdownId1">
+              <button class="dropbtn">Meine Ziele
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <input type="text" id="searchZiele" onkeyup="menuSearchZiele()" placeholder="Search.." title="Type in a category">
+                <ul id="menuZiele">
+                  <li><a href="bbr-ziel.html">Berufsbildungsreife (BBR)</a></li>
+                  <li><a href="ebbr-ziel.html">erweiterte Berufsbildungsreife (eBBR)</a></li>
+                  <li><a href="msa-ziel.html">mittlerer Schulabschluss (MSA)</a></li>
+                  <li><a href="fachabitur-ziel.html">Fachabitur</a></li>
+                  <li><a href="abitur-ziel.html">Abitur</a></li>
+                  <li><a href="duale-ausbildung-ziel.html">duale Ausbildung</a></li>
+                </ul>           
+              </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Meine Abschlüsse
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <input type="text" id="searchAbschlüsse" onkeyup="menuSearchAbschlüsse()" placeholder="Search.." title="Type in a category">
+                  <ul id="menuAbschlüsse" ui-scroll-viewport>
+                    <li><a href="ohne-abschluss.html">kein Abschluss</a></li>
+                    <li><a href="bbr.html">Berufsbildungsreife (BBR)</a></li>
+                    <li><a href="ebbr.html">erweiterte Berufsbildungsreife (eBBR)</a></li>
+                    <li><a href="msa.html">mittlerer Schulabschluss (MSA)</a></li>
+                    <li><a href="fachabitur.html">Fachabitur</a></li>
+                    <li><a href="abitur.html">Abitur</a></li>
+                  </ul>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="dropdown-icon" onclick="iconFunction()">
+              <i class="fa fa-bars"><img src="icon1.png" width="45px"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <h2>Abitur – Der höchste Schulabschluss!</h2>
+        <p>Du willst alle Türen offen haben? Dann ist das Abitur genau das Richtige für dich! Mit dem Abi kannst du an jeder Universität oder Hochschule studieren oder eine hochqualifizierte Ausbildung machen.</p>
+        <p>Wie bekommst du das Abitur?  Voraussetzung der Noten: Eine Note 6 (Null Punkte) oder ein o.B. gilt als nicht belegt. In Pflichtfächern führt dies dazu, dass man die Semester wiederholen muss. Für die Zulassung zum Abitur müssen 8 Leistungskurse eingebracht werden, wo man mindestens 80 Punkte erreicht hat und maximal zwei Ausfälle in den Leistungskursen hat. Man darf keinen Leistungskurs mit Null Punkten (Note 6) beenden. </p>
+        <p>Man muss genau 24 Grundkurse mit ins Abitur einbringen und mindestens 120 Punkte in diesen Fächern zusammen erreicht haben. In den Grundkursen darf man maximal 4 Ausfälle haben und auch hier gilt, keinen Grundkurs, den man ins Abitur aufnimmt, darf die Note 6/Null Punkte haben. </p>
+        <p>Um das Abitur zu bestehen, brauchen sie mindestens 300 Punkte. Sie können aus den Leistungskurse maximal 240 Punkte bekommen, bei den Grundkursen sind es 360 Punkte und bei den Abiturprüfungen können sie maximal 300 Punkte erreichen. Das Bedeutet dass ca ⅔ ihrer Punkte aus dem Unterricht stammen. Die Punkte aus den Grundkurs zählen einfach (x1), die Leistungskurse doppelt (x2) und die Abiturprüfungen zählen dabei vierfach (x4).</p>
+        <p>So kann Abitur erreicht werden:</p>
+        <ol>
+          <li>
+            Gymnasium oder gymnasiale Oberstufe – Nach dem <a href="msa-ziel.html">MSA</a> gehst du in die 11., 12. und 13. Klasse und schreibst am Ende die Abiturprüfungen.
+          </li>
+          <li>
+            Berufliches Gymnasium – Hier machst du das Abitur mit einem beruflichen Schwerpunkt, z. B. Wirtschaft oder Technik.
+          </li>
+          <li>
+            Nachholen auf dem zweiten Bildungsweg – Falls du dein Abi später machen willst, kannst du es auf einer Abendschule, einem Kolleg oder per Fernstudium nachholen.
+          </li>
+        </ol>
+        <p>Und was kannst du mit dem Abitur machen?</p>
+        <ul>
+          <li>
+            Studieren – Ob Medizin, Jura oder Ingenieurwesen – mit dem Abi stehen dir alle Studiengänge offen!
+          </li>
+          <li>
+            <a href="duale-ausbildung-ziel.html">Duales Studium</a> – Falls du nicht nur studieren, sondern auch arbeiten willst, kannst du ein duales Studium machen.
+          </li>
+          <li>
+            Direkt arbeiten oder eine Ausbildung machen – Auch mit dem Abi kannst du eine Ausbildung machen, falls du nicht studieren willst.
+          </li>
+        </ul>
+        <p>Falls du nach dem Abi noch nicht weißt, was du machen möchtest, gibt es viele Möglichkeiten:</p>
+        <ul>
+          <li>
+            FSJ oder Bundesfreiwilligendienst – Ein Jahr soziale Arbeit, um Erfahrungen zu sammeln.
+          </li>
+          <li>
+            Work & Travel oder Au-Pair – Die Welt entdecken und neue Kulturen kennenlernen.
+          </li>
+          <li>
+            Praktika in Unternehmen – Um herauszufinden, welcher Beruf zu dir passt.
+          </li>
+        </ul>
+        <p>Egal, was du vorhast – mit dem Abitur hast du unendlich viele Möglichkeiten!</p>
+    </main>
+    <footer>
+        <p><a href="impressum.html">Impressum</a></p>
+    </footer>
+</body>
+</html>
